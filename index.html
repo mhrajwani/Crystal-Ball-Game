@@ -7,48 +7,47 @@
     <title>Crystal Game</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 <body>
     <header> CRYSTAL COLLECTOR</header>
 </br>
     <div class = "main">
         <p>You will be given randon number at the start of the game.</p>
-    
         <p>There are four crystals below. by clicking on a crystal you will add a specific amount of points to your total score</p>
-
         <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the randon number</p>
-
         <p>The value of the crystal is hidden from you until you click on it</p>
-
         <p>Each time when the game starts, the game will change the values of each crystal</p>
     </div>
 
-    <div id = "rNumber">
+    <div class = "x">
+        <div id = "rNumber">
         Random Number is : 0
-    </div>
-    <div class = "side">
+        </div>
+        <div class = "side">
         <p id = "wins">Wins: 0</p>
         <p id = "loss">Losses: 0</p>
+        </div> 
     </div>
     <div class = "crystals">
-        <img src="assets/red.jpg" class = "red" style = "height: 150px">
-        <img src="assets/blue.jpg" class = "blue" style = "height: 100px">
-        <img src="assets/yellow.jpg" class = "yellow" style = "height: 150px">
-        <img src="assets/pink.jpg" class = "pink" style = "height: 100px">
+        <img src="assets/images/red.jpg" class = "red" style = "height: 100px">
+        <img src="assets/images/blue.jpg" class = "blue" style = "height: 100px">
+        <img src="assets/images/yellow.jpg" class = "yellow" style = "height: 100px">
+        <img src="assets/images/pink.jpg" class = "pink" style = "height: 100px">
         
     </div>
 
+    <div class = "bottom">
     <div class = "uScore">
         Your total score is: 
     </div>
-    
     <div id = "cScore">
         0
     </div>
+</div>
 
     <script src = assets/javascript/game.js></script>
 </body>
