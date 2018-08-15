@@ -1,4 +1,9 @@
-# week-4-game
+
+
+Play the Game at <a href="https://mhrajwani.github.io/Crystal-Ball-Game/">https://mhrajwani.github.io/Crystal-Ball-Game/</a>
+
+Mainly Used Jquery and CSS.
+
 1. There will be four crystals displayed as buttons on the page.
 
 2. The player will be shown a random number at the start of the game.
